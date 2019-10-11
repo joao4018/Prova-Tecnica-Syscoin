@@ -12,10 +12,20 @@ const errado = {
   "mensagem": "Credenciais erradas."
 }
 
+function getUser(req, res) {
+  if (String(req.query.user).replace('"', '').replace('"', '') == user["user"]
+    && String(req.query.password).replace('"', '').replace('"', '') == user["password"]) {
+    res.send({
+      "mensagem": "Meu nome completo é " + req.get('host') + ". Eu quero essa vaga!"
+    });
 
+  }
+  else
+    res.send(errado)
+};
 
 app.get('/provasyscoin', function (req, res) {
-
+  getUser(req, res);
 
 })
 
@@ -26,5 +36,6 @@ app.listen(port, err => {
     console.log(err)
   }
 })
+
 
 
