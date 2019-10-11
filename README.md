@@ -1,12 +1,18 @@
-# Prova
- Para executar localmente 
+## Prova Técnica Syscoin
+## SyscoinTest
+
+### Técnologias utilizadas
+   NodeJS v10
+   
+   NPM
+
+### Para executar localmente 
+   npm install
+
+   node index.js
  
- npm install
  
- node index.js
- 
- 
- link para deploy
+### links para deploy
  
  http://jaozinpentakill40-com.umbler.net/provasyscoin?user="syscoin"&password="meEscolhe" -> Credencial correta
  
