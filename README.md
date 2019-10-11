@@ -1,7 +1,7 @@
 ## Prova Técnica Syscoin
 ## SyscoinTest
 
-### Técnologias utilizadas
+### Tecnologias utilizadas
    NodeJS v10
    
    NPM
